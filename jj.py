@@ -10,6 +10,3 @@ day = range(7)
 dday = [datetime.datetime(year,month,d+1) for d in day]
 
 show = [random.randint(2,10) for d in day]
-
-plt.plot(day,show)
-plt.show()
